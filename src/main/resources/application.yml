@@ -1,0 +1,31 @@
+spring: #띄어쓰기 없음
+  profiles:
+    active: default
+  datasource: #띄어쓰기 2칸
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://bf9bfdafe7236d:f00fa7a9@us-cdbr-east-06.cleardb.net/heroku_acade22d84ceffd?reconnect=true
+    username: bf9bfdafe7236d
+    password: f00fa7a9
+
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate: #띄어쓰기 4칸
+      ddl-auto: update #띄어쓰기 6칸
+    properties: #띄어쓰기 4칸
+      hibernate: #띄어쓰기 6칸
+        show_sql: true #띄어쓰기 8칸
+        format_sql: true #띄어쓰기 8칸
+logging.level: #띄어쓰기 없음
+  org.hibernate.SQL: debug
+
+server:
+  port: 8080
+  servlet:
+    session:
+      tracking-modes: COOKIE
+
+# cksdl@30104
+
+
+
