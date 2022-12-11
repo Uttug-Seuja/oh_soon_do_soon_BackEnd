@@ -31,15 +31,13 @@
 
 ## 🛠️ ****Tech Stack****
 
-- Kotlin
-- Data binding
-- Room
-- Coroutine
-- Retrofit2 + OkHttp
+- Spring Boot
+- Mysql
+
 
 ## ⚙️ Architecture
 
-- MVVM
+- mvc
 
 ## 👨‍👩‍👧‍👦 Owner
 
