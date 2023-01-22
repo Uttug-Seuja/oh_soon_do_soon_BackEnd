@@ -32,7 +32,9 @@
 ## 🛠️ ****Tech Stack****
 
 - Spring Boot
+- JPA
 - Mysql
+- Heroku
 
 
 ## ⚙️ Architecture
